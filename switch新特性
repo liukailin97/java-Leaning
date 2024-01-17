@@ -1,0 +1,22 @@
+package HackerDemo;
+import java.util.Scanner;
+public class date01 {
+    public static void main(String[] args) {
+        //CASE穿透  switch新特性
+        Scanner sc =new Scanner(System.in);
+        int a =sc.nextInt();
+        switch(a){
+            case 1->{
+                System.out.println("dsa");
+            }case 2->{
+                System.out.println("waqs");
+            }case 3->{
+                System.out.println("qppop");
+            }default->{
+                System.out.println("csxa");
+            }
+
+        }
+    }
+
+}
